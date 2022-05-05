@@ -84,13 +84,13 @@ Keep-Alive: timeout=5
 #### Request cURL
 
 ```
-
+curl http://localhost:5000/app/flips/6
 ```
 
 #### Response body
 
 ```
-
+{"raw":["heads","tails","heads","tails","tails","heads"],"summary":{"heads":3,"tails":3}}
 ```
 
 #### Response headers
